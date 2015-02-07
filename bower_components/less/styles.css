@@ -29,8 +29,23 @@ body header .section {
   background: url(../img/headback.jpg) no-repeat fixed center center;
   background-size: cover;
 }
+@media only screen and (max-width: 468px) {
+  body header .section {
+    zoom: 0.8;
+  }
+}
 body header .section .head-top {
   background: #252525;
+}
+@media only screen and (max-width: 468px) {
+  body header .section .head-top .mob-img {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body header .section .head-top .mob-img {
+    text-align: center;
+  }
 }
 body header .section .head-top a {
   text-decoration: none;
@@ -72,8 +87,77 @@ body header .section .head-top p i {
   color: #ef4d64;
   padding-left: 3px;
 }
+body header .section .head-top .mob-search input[type=search] {
+  width: 15px;
+  padding-right: 10px;
+  color: transparent;
+  cursor: pointer;
+}
+body header .section .head-top .mob-search input[type=search] {
+  background: #252525 url(../img/search.png) no-repeat 9px center;
+  padding: 9px 10px 9px 27px;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+  float: right;
+}
+body header .section .head-top .mob-search input[type=search]:focus {
+  width: 130px;
+  padding-left: 32px;
+  color: #000;
+  background-color: #fff;
+  cursor: auto;
+}
+body header .section .head-top .mob-search input:-moz-placeholder {
+  color: transparent;
+}
+body header .section .head-top .mob-search input::-webkit-input-placeholder {
+  color: transparent;
+}
+body header .section .head-top .mob-search input[type=search]:hover {
+  background-color: #7c7c7c;
+}
+body header .section .head-top .pos-img {
+  padding-top: 5px;
+  float: left;
+}
+@media only screen and (max-width: 468px) {
+  body header .section .head-top .img-log {
+    text-align: center;
+    transform: translate(-10%, 0%);
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body header .section .head-top .img-log {
+    text-align: center;
+    transform: translate(-20%, 0%);
+  }
+}
 body header .img-logo {
   margin: 40px auto;
+}
+@media only screen and (max-width: 468px) {
+  body header .img-logo img {
+    zoom: 0.6;
+  }
+  body header .img-logo h3 {
+    font-size: 50px !important;
+    text-transform: uppercase;
+    line-height: 25px !important;
+    margin: 32px auto !important;
+    zoom: 0.9;
+  }
+  body header .img-logo p {
+    font-size: 20px !important;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body header .img-logo img {
+    zoom: 0.8;
+  }
 }
 body header .img-logo h3 {
   font-size: 40px;
@@ -98,6 +182,16 @@ body header .img-logo .search-tag input[type="text"] {
   font-size: 12px;
   margin: 10px auto;
 }
+@media only screen and (max-width: 468px) {
+  body header .img-logo .search-tag input[type="text"] {
+    padding: 11px 100px 10px 6px;
+  }
+  body header .img-logo .search-tag button {
+    padding: 8px 25px 12px 25px !important;
+    margin-left: -4px !important;
+    -webkit-transition: all 0.5s;
+  }
+}
 body header .img-logo .search-tag button {
   background: #ef4d64;
   border: 1px solid #ef4d64;
@@ -115,6 +209,18 @@ body header .img-logo .search-tag button:hover {
   -webkit-transition: all 0.5s;
   color: #ef4d64;
 }
+@media only screen and (max-width: 468px) {
+  body header .img-logo .soci-tag i {
+    color: #fff !important;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body header .img-logo .soci-tag i {
+    color: #fff !important;
+    font-size: 20px;
+  }
+}
 body header .img-logo .soci-tag i {
   color: #7c7c7c;
   font-style: normal;
@@ -124,6 +230,12 @@ body header .img-logo .soci-tag div.soci-btn {
 }
 body header .img-logo .soci-tag div.soci-btn img {
   padding-right: 10px;
+}
+@media only screen and (max-width: 468px) {
+  body header .img-logo .soci-tag div.soci-btn {
+    zoom: 1.8;
+    margin: 8px auto !important;
+  }
 }
 body content .section {
   background: url(../img/video.png) no-repeat fixed center center;
@@ -156,6 +268,24 @@ body content .section .prog .share {
 body content .section .prog .circle {
   margin: 190px -112px;
 }
+@media only screen and (max-width: 468px) {
+  body content .section .prog .rest-mob {
+    zoom: 0.7;
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body content .section .prog .rest-mob {
+    zoom: 0.7;
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+  }
+}
 body content .section .rest {
   margin: 0px auto;
   position: relative;
@@ -173,6 +303,43 @@ body content .section .rest p {
 body content .section .rest p span {
   padding-left: 14px;
 }
+@media only screen and (max-width: 468px) {
+  body .back {
+    background: #fff !important;
+  }
+}
+@media only screen and (max-width: 468px) {
+  body .mid-text {
+    height: 150px !important;
+  }
+  body .mid-text i {
+    margin-top: 14px !important;
+  }
+  body .mid-text p {
+    font-size: 16px;
+    color: #818181;
+    text-align: center !important;
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body .mid-text {
+    height: 150px !important;
+  }
+  body .mid-text i {
+    margin-top: 14px !important;
+  }
+  body .mid-text p {
+    font-size: 16px;
+    color: #818181;
+    text-align: center !important;
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+  }
+}
 body .mid-text {
   background: #ededed;
   height: 105px;
@@ -180,7 +347,7 @@ body .mid-text {
 }
 body .mid-text i {
   font-size: 25px;
-  padding: 16px;
+  padding: 9px;
   color: #c3c3c3;
 }
 body .mid-text i:hover {
@@ -249,8 +416,33 @@ body headers .section {
   background: url(../img/category.png) no-repeat fixed center center;
   background-size: cover;
 }
+@media only screen and (max-width: 468px) {
+  body headers .section {
+    background: #fff;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body headers .section {
+    background: #fff;
+  }
+}
+@media only screen and (max-width: 468px) {
+  body headers .section {
+    zoom: 0.8;
+  }
+}
 body headers .section .head-top {
   background: #252525;
+}
+@media only screen and (max-width: 468px) {
+  body headers .section .head-top .mob-img {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body headers .section .head-top .mob-img {
+    text-align: center;
+  }
 }
 body headers .section .head-top .active {
   color: #fff !important;
@@ -288,6 +480,67 @@ body headers .section .head-top p i {
   color: #ef4d64;
   padding-left: 3px;
 }
+body headers .section .head-top .mob-search input[type=search] {
+  width: 15px;
+  padding-right: 10px;
+  color: transparent;
+  cursor: pointer;
+}
+body headers .section .head-top .mob-search input[type=search] {
+  background: #252525 url(../img/search.png) no-repeat 9px center;
+  padding: 9px 10px 9px 27px;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+  float: right;
+}
+body headers .section .head-top .mob-search input[type=search]:focus {
+  width: 130px;
+  padding-left: 32px;
+  color: #000;
+  background-color: #fff;
+  cursor: auto;
+}
+body headers .section .head-top .mob-search input:-moz-placeholder {
+  color: transparent;
+}
+body headers .section .head-top .mob-search input::-webkit-input-placeholder {
+  color: transparent;
+}
+body headers .section .head-top .mob-search input[type=search]:hover {
+  background-color: #7c7c7c;
+}
+body headers .section .head-top .pos-img {
+  padding-top: 5px;
+  float: left;
+}
+@media only screen and (max-width: 468px) {
+  body headers .section .head-top .img-log {
+    text-align: center;
+    transform: translate(-10%, 0%);
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body headers .section .head-top .img-log {
+    text-align: center;
+    transform: translate(-20%, 0%);
+  }
+}
+@media only screen and (max-width: 468px) {
+  body .head-cat h4 {
+    font-size: 35px !important;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body .head-cat h4 {
+    font-size: 35px !important;
+    text-align: center;
+  }
+}
 body .head-cat h4 {
   font-size: 30px;
   text-transform: uppercase;
@@ -295,8 +548,23 @@ body .head-cat h4 {
   color: #303030;
   font-weight: bold;
 }
+@media only screen and (max-width: 468px) {
+  body headers .sections {
+    zoom: 0.8;
+  }
+}
 body headers .sections .head-top {
   background: #252525;
+}
+@media only screen and (max-width: 468px) {
+  body headers .sections .head-top .mob-img {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body headers .sections .head-top .mob-img {
+    text-align: center;
+  }
 }
 body headers .sections .head-top .active {
   color: #fff !important;
@@ -305,17 +573,13 @@ body headers .sections .head-top a {
   text-decoration: none;
   color: #7c7c7c;
 }
-body headers .sections .head-top a .col {
+body headers .sections .head-top .col {
   color: #fff !important;
 }
 body headers .sections .head-top a:hover {
   text-decoration: none;
   color: #fff;
   -webkit-transition: all 0.5s;
-}
-body headers .sections .head-top a:active {
-  text-decoration: none;
-  color: #fff;
 }
 body headers .sections .head-top i {
   font-size: 14px;
@@ -338,10 +602,74 @@ body headers .sections .head-top p i {
   color: #ef4d64;
   padding-left: 3px;
 }
+body headers .sections .head-top .mob-search input[type=search] {
+  width: 15px;
+  padding-right: 10px;
+  color: transparent;
+  cursor: pointer;
+}
+body headers .sections .head-top .mob-search input[type=search] {
+  background: #252525 url(../img/search.png) no-repeat 9px center;
+  padding: 9px 10px 9px 27px;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+  float: right;
+}
+body headers .sections .head-top .mob-search input[type=search]:focus {
+  width: 130px;
+  padding-left: 32px;
+  color: #000;
+  background-color: #fff;
+  cursor: auto;
+}
+body headers .sections .head-top .mob-search input:-moz-placeholder {
+  color: transparent;
+}
+body headers .sections .head-top .mob-search input::-webkit-input-placeholder {
+  color: transparent;
+}
+body headers .sections .head-top .mob-search input[type=search]:hover {
+  background-color: #7c7c7c;
+}
+body headers .sections .head-top .pos-img {
+  padding-top: 5px;
+  float: left;
+}
+@media only screen and (max-width: 468px) {
+  body headers .sections .head-top .img-log {
+    text-align: center;
+    transform: translate(-10%, 0%);
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body headers .sections .head-top .img-log {
+    text-align: center;
+    transform: translate(-20%, 0%);
+  }
+}
 body .feed-head {
   background: #fff;
   height: 180px;
   padding-top: 30px;
+}
+@media only screen and (max-width: 468px) {
+  body .feed-head {
+    height: auto;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body .feed-head {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 468px) {
+  body .feed-head .search-feed input[type="text"] {
+    padding: 15px 165px 15px 13px !important;
+  }
 }
 body .feed-head .search-feed input[type="text"] {
   background: transparent;
@@ -350,6 +678,14 @@ body .feed-head .search-feed input[type="text"] {
   font-size: 14px;
   margin: 10px auto;
   color: #7c7c7c;
+}
+@media only screen and (max-width: 468px) {
+  body .feed-head .search-feed button {
+    padding: 10px 145px 10px 146px !important;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
 }
 body .feed-head .search-feed button {
   background: #ef4d64;
@@ -368,12 +704,30 @@ body .feed-head .search-feed button:hover {
   -webkit-transition: all 0.5s;
   color: #ef4d64;
 }
+@media only screen and (max-width: 468px) {
+  body .feed-head .head-cat h4 {
+    font-size: 35px !important;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body .feed-head .head-cat h4 {
+    font-size: 35px !important;
+    text-align: center;
+  }
+}
 body .feed-head .head-cat h4 {
   font-size: 30px;
   text-transform: uppercase;
   margin-top: 0px;
   color: #303030;
   font-weight: bold;
+}
+@media only screen and (max-width: 468px) {
+  body .feed-head i {
+    font-size: 22px !important;
+    text-align: center !important;
+  }
 }
 body .feed-head i {
   color: #606060;
@@ -388,6 +742,16 @@ body .feed-content {
 }
 body .feed-content .feed-row {
   padding-top: 15px;
+}
+@media only screen and (max-width: 468px) {
+  body .feed-content .feed-video {
+    position: relative;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body .feed-content .feed-video {
+    position: relative;
+  }
 }
 body .feed-content .feed-video {
   overflow: hidden;
@@ -410,10 +774,39 @@ body .feed-content .feed-video img:hover {
   -webkit-transition: all 0.5s;
   cursor: pointer;
 }
+@media only screen and (max-width: 468px) {
+  body .feed-content .feed-video .play {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+    vertical-align: middle !important;
+    margin: auto !important;
+    left: 50% !important;
+    text-align: center;
+  }
+  body .feed-content .feed-video .play img:hover {
+    opacity: 0.4 !important;
+    -webkit-transition: all 1s !important;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body .feed-content .feed-video .play {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+    vertical-align: middle !important;
+    margin: auto !important;
+    left: 50% !important;
+    text-align: center;
+  }
+}
 body .feed-content .feed-video .play {
   position: absolute;
-  right: 165px;
-  top: 115px;
+  /* right: 140px; */
+  top: 103px;
+  left: 0px;
+  width: 100%;
 }
 body .feed-content .feed-det .rating {
   padding: 10px;
@@ -450,6 +843,16 @@ body .map-feed i span {
   font-size: 12px;
   font-family: lato;
   vertical-align: middle;
+}
+@media only screen and (max-width: 468px) {
+  body .load-feed {
+    margin-bottom: 0px !important;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body .load-feed {
+    margin-bottom: 0px !important;
+  }
 }
 body .load-feed {
   margin-top: 80px;
@@ -590,4 +993,103 @@ body .loca-desc .tag-desc i {
   font-style: normal;
   padding: 5px;
   margin: 4px 1px 0px 10px;
+}
+body .bg-mob {
+  background: #ededed;
+  height: 50px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+body .bg-mob a {
+  text-decoration: none;
+  color: #c1c1c1;
+}
+body .bg-mob a .active {
+  color: #515151 !important;
+}
+body .bg-mob a:hover {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+}
+@media only screen and (max-width: 468px) {
+  body .bg-mob a:hover {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: all 0.5s;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body .bg-mob a:hover {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: all 0.5s;
+  }
+}
+body .bg-mob ul {
+  display: -webkit-inline-box;
+  color: #7c7c7c;
+  padding-top: 14px;
+  font-size: 14px;
+}
+body .bg-mob ul li {
+  padding-right: 33px;
+}
+@media only screen and (max-width: 468px) {
+  body .btn-mob {
+    text-align: center;
+    position: relative;
+    top: 55px;
+    zoom: 0.8;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body .btn-mob {
+    text-align: center;
+    zoom: 0.8;
+    position: relative;
+    top: 55px;
+  }
+}
+@media only screen and (max-width: 468px) {
+  body .btn-pause {
+    position: relative;
+    /* float: right !important; */
+    bottom: 50px;
+    zoom: 0.7;
+  }
+}
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+  body .btn-pause {
+    position: relative;
+    /* float: right !important; */
+    bottom: 50px;
+    zoom: 0.7;
+  }
+}
+body .footer-mob {
+  border-bottom: 1px solid grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body .footer-mob h5 {
+  text-align: center;
+  color: #7c7c7c;
+  font-weight: bold;
+}
+body .footer-mob p {
+  color: #7c7c7c;
+  text-align: center;
+  font-size: 11px;
+  text-transform: capitalize;
+  display: block;
+  border-right: none;
+  cursor: pointer;
+}
+body a.active {
+  color: black !important;
+}
+body a:hover {
+  color: black;
 }

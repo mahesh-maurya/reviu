@@ -18,13 +18,8 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
 
     <script src="bower_components/jquery/main.js"></script>
-    <script src="bower_components/jquery/jquery-ui-1.9.0.custom.min.js"></script>
-    <script src="bower_components/jquery/pgwslider.js"></script>
-    
-<!--
     <script src="bower_components/jquery/modernizr.custom.js"></script>
     <script src="bower_components/jquery/jquery.cslider.js"></script>
--->
     <script src="bower_components/jquery/hamburger-menu.js"></script>
 
     <link rel="stylesheet" href="bower_components/less/font-awesome.css">
@@ -32,19 +27,12 @@
     <link rel="stylesheet" href="bower_components/less/animate.css">
     <link rel="stylesheet" href="bower_components/less/slider.css">
     <link rel="stylesheet" href="bower_components/less/styless.css">
-    <link rel="stylesheet" href="bower_components/less/pgwslider.css">
 
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
     <!--[if IE]>
         <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-        
     <![endif]-->
-    <script type="text/javascript">
-	$(document).ready(function(){
-		$("#featured").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
-	});
-</script>
 </head>
 
 <body>
@@ -64,13 +52,13 @@
                                 <img class="text-center img-log" src="bower_components/img/logo.png">
                             </a>
                             <ul class="hidden-xs hidden-sm">
-                                <a href="feed.html">
-                                    <li style="list-style:none;">Feed</li>
+                                <a href="main.html">
+                                    <li style="list-style:none;">feed</li>
                                 </a>
-                                <a href="preview.html">
+                                <a href="#">
                                     <li>Preview</li>
                                 </a>
-                                <a href="explore.html">
+                                <a href="category.html">
                                     <li>Explore</li>
                                 </a>
                                 <a href="#">
@@ -103,13 +91,13 @@
 margin: auto;">
 
                             <ul >
-                                <a href="feed.html">
-                                    <li style="list-style:none;padding-left:0px">Feed</li>
+                                <a href="main.html">
+                                    <li style="list-style:none;padding-left:0px">feed</li>
                                 </a>
-                                <a href="preview.html">
+                                <a href="#">
                                     <li>Preview</li>
                                 </a>
-                                <a href="explore.html">
+                                <a href="category.html">
                                     <li>Explore</li>
                                 </a>
                                 <a href="#">
@@ -152,36 +140,82 @@ margin: auto;">
                     </div>
                     <div class="col-md-6 hidden-xs hidden-sm">
                         <!--                        <img src="bower_components/img/phone.png">-->
-		<div id="featured" >
-		  <ul class="ui-tabs-nav">
-	        <li class="ui-tabs-nav-item" id="nav-fragment-1"><a href="#fragment-1"><img src="bower_components/img/left.png" class="img-slide" ><span>Lorem ipsum dolor</span><p>Lorem ipsum dolor sit ametcons ectetuer adipiscing elit, sed diam nonummy nibh euismod</p></a></li>
-	        <li class="ui-tabs-nav-item" id="nav-fragment-2"><a href="#fragment-2"><img src="bower_components/img/left.png" class="img-slide"><span>Lorem ipsum dolor</span><p>Lorem ipsum dolor sit ametcons ectetuer adipiscing elit, sed diam nonummy nibh euismod</p></a></li>
-	         <li class="ui-tabs-nav-item" id="nav-fragment-3"><a href="#fragment-3"><img src="bower_components/img/left.png" class="img-slide"><span>Lorem ipsum dolor</span><p>Lorem ipsum dolor sit ametcons ectetuer adipiscing elit, sed diam nonummy nibh euismod</p></a></li>
-<!--	        <li class="ui-tabs-nav-item" id="nav-fragment-4"><a href="#fragment-4"><img src="images/image4-small.jpg" alt="" /><span>Create a Vintage Photograph in Photoshop</span></a></li>-->
-			
-	      </ul>
+                        <div id="da-slider" class="da-slider">
+                            <div class="da-slide ">
+                                <div class="slide-cont hidden-xs hidden-sm">
+                                    <img src="bower_components/img/left.png">
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit ametcons ectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                                </div>
 
-	    <!-- First Content -->
-	    <div id="fragment-1" class="ui-tabs-panel" style="">
-			<img src="bower_components/img/phone.png" alt="" />
-			
-	    </div>
+                                <div class="slide visible-xs visible-sm">
+                                    <div class="slide-cont">
+                                        <img src="bower_components/img/left.png">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Lorem ipsum dolor sit ametcons ectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                                    </div>
+                                </div>
+                                <div class="slide-cont2 hidden-xs hidden-sm">
+                                    <img src="bower_components/img/left.png">
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit ametcons ectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                                </div>
+                                <div class="slide-cont3 hidden-xs hidden-sm">
+                                    <img src="bower_components/img/left.png">
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit ametcons ectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                                </div>
+                                <!--					<a href="#" class="da-link">Read more</a>-->
+                                <div class="da-img">
+                                    <img src="bower_components/img/phone.png" alt="image01" />
+                                </div>
+                            </div>
+                            <div class="da-slide">
+                                <div class="slide-cont hidden-xs hidden-sm">
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit ametcons ectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                                </div>
+                                <div class="slide-cont2 hidden-xs hidden-sm">
+                                    <img src="bower_components/img/left.png">
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit ametcons ectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                                </div>
+                                <div class="slide-cont3 hidden-xs hidden-sm">
+                                    <img src="bower_components/img/left.png">
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit ametcons ectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                                </div>
+                                <!--					<a href="#" class="da-link">Read more</a>-->
+                                <div class="da-img">
+                                    <img src="bower_components/img/phone.png" alt="image01" />
+                                </div>
+                            </div>
+                            <div class="da-slide">
+                                <div class="slide-cont hidden-xs hidden-sm">
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit ametcons ectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                                </div>
+                                <div class="slide-cont2 hidden-xs hidden-sm">
+                                    <img src="bower_components/img/left.png">
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit ametcons ectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                                </div>
+                                <div class="slide-cont3 hidden-xs hidden-sm">
+                                    <img src="bower_components/img/left.png">
+                                    <h5>Lorem ipsum dolor</h5>
+                                    <p>Lorem ipsum dolor sit ametcons ectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                                </div>
 
-	    <!-- Second Content -->
-	    <div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" style="">
-			<img src="bower_components/img/phone.png" alt="" />
-			
-	    </div>
+                                <div class="da-img">
+                                    <img src="bower_components/img/phone.png" alt="image01" />
+                                </div>
+                            </div>
 
-	    <!-- Third Content -->
-	    <div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" style="">
-			<img src="bower_components/img/phone.png" alt="" />
-			
-	    </div>
-		
-		
-
-		</div>
+                            <nav class="da-arrows">
+                                <span class="da-arrows-prev"></span>
+                                <span class="da-arrows-next"></span>
+                            </nav>
+                        </div>
                     </div>
 
                     <div class="col-md-6 hidden-md hidden-lg visible-xs visible-sm">
@@ -247,7 +281,7 @@ margin: auto;">
                             <img class="pull-right circle " src="bower_components/img/circle.png">
                         </div>
                         <div class="rest text-center">
-                            <p>restaurant<span><img src="bower_components/img/restaurent.png"></span>
+                            <p>restaurent<span><img src="bower_components/img/restaurent.png"></span>
                             </p>
                         </div>
                     </div>
@@ -447,7 +481,6 @@ margin: auto;">
 			new gnMenu( document.getElementById( 'gn-menu' ) );
 		</script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<!--
     <script type="text/javascript">
         $(function () {
 
@@ -455,8 +488,9 @@ margin: auto;">
 
         });
     </script>
--->
-
+    <script>
+        new WOW().init();
+    </script>
     <script>
         document.createElement('video');
     </script>
