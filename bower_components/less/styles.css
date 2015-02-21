@@ -913,7 +913,7 @@ body .video-descs .feed-det h5 {
   text-transform: uppercase;
   float: left;
   padding-left: 15px;
-  line-height: 1;
+  line-height: 0;
 }
 body .video-descs .feed-det h5 span {
   color: #ef4d64;
